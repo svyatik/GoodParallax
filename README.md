@@ -11,7 +11,7 @@ Please, watch demo here: http://svyatik.github.io/GoodParallax
 - It's OpenSorce. Free to use for commercial and non-comercial projects.
 
 ## How to use
-- Just download it:
+- Just download it: https://github.com/svyatik/GoodParallax/blob/master/js/GoodParallax.js
 - Include to your project:
 ```html
 <script src="js/GoodParallax.js"></script>
@@ -21,16 +21,10 @@ Please, watch demo here: http://svyatik.github.io/GoodParallax
 new GoodParallax ().init ();
 ```
 
-##### Of course, You can include it from CDN:
-
-##### Or, maybe you like package manager
+##### Of course, You can use package managers:
 - From NPM:
 ```
 npm install GoodParallax
-```
-- Or from Bower:
-```
-bower i GoodParallax
 ```
 
 ## Customize The Plugin
