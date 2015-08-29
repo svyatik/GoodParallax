@@ -2,7 +2,7 @@
 Very simple and easy to use parallax animation plugin.
 
 ## Demo
-Please, watch demo here: http://svyatik.github.io/GoodParallax
+Please, watch demo here: [Demo](http://svyatik.github.io/GoodParallax)
 
 ## Features
 - No jQuery. Plugin was written only on JavaScript;
