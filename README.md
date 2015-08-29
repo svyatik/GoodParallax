@@ -27,6 +27,11 @@ new GoodParallax ().init ();
 npm install GoodParallax
 ```
 
+##### In the next, we need to set the background image in the block:
+```html
+ <section class="parallax" data-img="img/path_to_your_image"></section>
+```
+
 ## Customize The Plugin
 You can change the parallax speed or Turn On the plugin on the mobile devices.
 ```javascript
