@@ -1,19 +1,10 @@
 /**
- * @version 0.1
+ * @version 0.2
  * @author Svyatoslav Kovtun <barsic.plus@gmail.com>
  * @license The MIT License
  * @date 25.08.2015
  * @copyright © Svyatoslav Kovtun 2015
  */
-
-onload = function () {
-    // Init the GoogParallax object
-    new GoodParallax ().init ({
-        // Customize parralax effect:
-        // Set the parallax speed
-        speed: 5
-    });
-};
 
 var GoodParallax = function () {
     /**
