@@ -1,0 +1,23 @@
+{
+  "name": "goodparallax",
+  "version": "2.0.1",
+  "description": "Very simple and easy to use parallax animation plugin.",
+  "main": "dist/good-parallax.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svyatik/GoodParallax.git"
+  },
+  "keywords": [
+    "parallax",
+    "animation"
+  ],
+  "author": "Svyatoslav <svyat.kovtun@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svyatik/GoodParallax/issues"
+  },
+  "homepage": "https://github.com/svyatik/GoodParallax#readme"
+}
