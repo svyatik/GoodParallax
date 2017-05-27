@@ -7,7 +7,7 @@ Play with demo here: [Demo](http://svyatik.github.io/GoodParallax/demo)
 ## Features
 - Smooth work;
 - Very easy to set up and play;
-- No jQuery. Plugin has been coded on JavaScript;
+- No jQuery. Plugin has been coded on pure JavaScript;
 
 ## How to use
 - just include the plugin to your project...
@@ -35,7 +35,7 @@ You can change the parallax speed or use different class.
 ```javascript
 // Plugin customization
 new GoodParallax().init({
-    speed: 5.0
+    speed: 8.0
 });
 ```
 ##### Avalaible Options
