@@ -45,9 +45,8 @@ new GoodParallax().init({
 |className   |parallax     |Use your own class for parallax animation                      |
 
 ## Some tips and recomendations
-- You can skip the data-img attribute and add the image via backgroud-image property from CSS. That's more proper way because script will not block image downloading and rendering.
-- If you use clear JS, make sure you init the plugin after document loads.
-- Compress your images. Also, don't use very large image size. In my opinion, FullHD is enough.
-- For mobile device is more properly to include image with more smaller size, for example, not more than 768px by width.
+- You can skip the data-img attribute and add the image via backgroud-image property from CSS. That's more proper way either js blocks the image rendering
+- Compress and shrink your images. In my opinion, FullHD is enough for size.
+- For mobile devices are more properly to include image with more smaller size, for example, not more than 768px by width.
 
 Hope you like it :)
