@@ -1,6 +1,6 @@
 /**
- * @version 2.0
- * @author Svyatoslav Kovtun <barsic.plus@gmail.com>
+ * @version 2.0.2
+ * @author Svyatoslav Kovtun <svyat.kovtun@gmail.com>
  * @license The MIT License
  * @date 05.27.2017
  * @copyright © Svyatoslav Kovtun 2017
@@ -10,8 +10,8 @@ var GoodParallax = function() {
     /**
      * This function add event listener to window and smooth parallax effect
      * 
-     * @param {Object} parameters for parallax effect
-     * @config {number} [speed] The speed of parallax scrolling
+     * @param   {Object}  parallax  The list of parallax elements
+     * @config  {number}  speed     The speed of parallax scrolling
      */
 
     var work = function(parallax, speed) {
@@ -32,7 +32,7 @@ var GoodParallax = function() {
     /**
      * Initialize all elements with 'parallax' class
      * 
-     * @param {Object}
+     * @param  {Object}
      */
     this.init = function(param) {
         if(typeof param === 'undefined') {
