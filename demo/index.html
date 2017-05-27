@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demo | Good Parallax</title>
+    <script src="../dist/good-parallax.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="parallax header-image"></section>
+
+    <section class="white">
+    <div class="container">
+        <article>
+            <img src="http://placehold.it/400x280" alt>
+        </article>
+        <article>
+            <img src="http://placehold.it/400x280" alt>
+        </article>
+        <article>
+            <img src="http://placehold.it/400x280" alt>
+        </article>
+    </div>
+    </section>
+
+    <section class="parallax" data-img="img/background_2.jpg"></section>
+    <section class="parallax" data-img="img/background_3.jpg"></section>
+    <section class="parallax" data-img="img/background_4.jpg"></section>
+
+    <script>
+        new GoodParallax().init();
+    </script>
+</body>
+</html>

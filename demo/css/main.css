@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setup visible parallax size */
+.parallax {
+  width: 100%;
+  height: 100vh;
+}
+
+/* 
+ * You also can include your images from CSS. 
+ * This way is more better because it allows you load images before JS scripts.
+ */
+.header-image {
+  background-image: url(../img/background_1.jpg);
+  background-repeat: no-repeat;
+}
+
+/* Some additional styles for "example block" */
+.container {
+  max-width: 1200px;
+  margin: 6% auto;
+  display: flex;
+}
+
+.container > article {
+  flex: 1;
+  padding: 0 25px;
+}
+
+.container > article > img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .container > article:not(:first-of-type) {
+    display: none;
+  }
+}
