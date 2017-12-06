@@ -8,6 +8,7 @@ Play with demo here: [Demo](http://svyatik.github.io/GoodParallax/demo)
 - Smooth work;
 - Very easy to set up and play;
 - No jQuery. Plugin has been coded on pure JavaScript;
+- Mobile phone support
 
 ## How to use
 - just include the plugin to your project...
