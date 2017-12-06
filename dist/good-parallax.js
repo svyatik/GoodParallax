@@ -63,7 +63,7 @@ var GoodParallax = function() {
             parallax[i].style.backgroundPosition = 'center 0';
 
 						if (mobile === true) {
-							// Set image higher than 1.5x bigger to keep the image inside container
+							// Set image 1.5x bigger to keep the image inside container
 							parallax[i].style.backgroundSize = 'auto ' + parallax[i].scrollHeight * 1.5 + 'px';
 							// 'Cover' will not work on mobile
 							parallax[i].style.backgroundAttachment = 'scroll';
