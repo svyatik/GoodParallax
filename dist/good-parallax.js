@@ -26,7 +26,7 @@ var GoodParallax = function() {
             for (var i = 0; parallax.length > i; i++) {
                 // Count the new background position
                 var bgScroll = -((window.scrollY -parallax[i].offsetTop) / speed);
-								// Reposition start point hight to keep in container on mobile
+								// Reposition start point height to keep inside container on mobile
 								if (mobile === true){ bgScroll = bgScroll - 150; }
                 // Save new background position to variable
                 var bgPosition = 'center '+ bgScroll + 'px';
